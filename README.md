@@ -5,6 +5,7 @@ The cell cycle is a highly regulated process that ensures the accurate replicati
 We model the dynamics of mRNA metabolism by expressing the steps involved—transcription, splicing, degradation—as a system of coupled ordinary differential equations,
 
 $\frac{\mathrm{d}u(t)}{\mathrm{d}t} = \alpha(t) - \beta u(t)$
+
 $\frac{\mathrm{d}s(t)}{\mathrm{d}t} = \beta u(t) - \gamma(t) s(t)$.
 
 We used Fourier series approximation to solve for $u(t)$, $s(t)$, $\alpha(t)$, $\gamma(t)$, and $\beta$. The mathematical details are in `fourier_solution.pdf`.
