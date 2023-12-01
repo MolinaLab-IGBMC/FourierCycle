@@ -256,7 +256,7 @@ class FourierSolve():
 			if True then the Fourier coefficients for synthesis are set to zero
 		deg_off : bool, default False
 			if True then the Fourier coefficients for degradation are set to zero
-		Note: if either syn_off or deg_off is then the variable methods should be set to 
+		Note: if either syn_off or deg_off is True then the variable "methods" should be set to 
 		solver compatiable with bounds, e.g. "L-BFGS-B"
 		Returns:
 		--------
