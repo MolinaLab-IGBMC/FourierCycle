@@ -4,11 +4,11 @@ The cell cycle is a highly regulated process that ensures the accurate replicati
 ### Biophysical model
 We model the dynamics of mRNA metabolism by expressing the steps involved—transcription, splicing, degradation—as a system of coupled ordinary differential equations,
 
-$\frac{\mathrm{d}u(t)}{\mathrm{d}t} = \alpha(t) - \beta u(t)$
+$\frac{\mathrm{d}u(\theta)}{\mathrm{d}\theta} = \alpha(\theta) - \beta u(\theta)$
 
-$\frac{\mathrm{d}s(t)}{\mathrm{d}t} = \beta u(t) - \gamma(t) s(t)$.
+$\frac{\mathrm{d}s(\theta)}{\mathrm{d}\theta} = \beta u(\theta) - \gamma(\theta) s(\theta)$.
 
-We used Fourier series approximation to solve for $u(t)$, $s(t)$, $\alpha(t)$, $\gamma(t)$, and $\beta$. The mathematical details are in `fourier_solution.pdf`.
+We used Fourier series approximation to solve for $u(\theta)$, $s(\theta)$, $\alpha(\theta)$, $\gamma(\theta)$, and $\beta$. The mathematical details are in `fourier_solution.pdf`.
 
 ### Usage
 To use the code one would need to run [DeepCycle](https://github.com/andreariba/DeepCycle) and obtain an AnnData object which contains layers: `Ms` and `Mu` and obs: `cell_cycle_theta`. The notebook `jupyter/fit_gene.ipynb` demonstrates the usage. The code has been tested on single-cell RNA-seq and single-nucleus RNA-seq datasets obtained from the Chromium platform of 10X Genomics.
