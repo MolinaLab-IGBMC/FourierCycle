@@ -1,5 +1,4 @@
 __author__ = 'Maulik K. Nariya'
-__copyright__ = 'CC-BY-4.0'
 __date__ = 'March 2023'
 
 import numpy as np
