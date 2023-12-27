@@ -11,18 +11,18 @@ $\frac{\mathrm{d}s(\theta)}{\mathrm{d}\theta} = \beta u(\theta) - \gamma(\theta)
 We used Fourier series approximation to solve for $u(\theta)$, $s(\theta)$, $\alpha(\theta)$, $\gamma(\theta)$, and $\beta$. The mathematical details are in `fourier_solution.pdf`.
 
 ### Usage
-To use the code one would need to run [DeepCycle](https://github.com/andreariba/DeepCycle) and obtain an AnnData object which contains layers: `Ms` and `Mu` and obs: `cell_cycle_theta`. The notebook `jupyter/fit_gene.ipynb` demonstrates the usage. The code has been tested on single-cell RNA-seq and single-nucleus RNA-seq datasets obtained from the Chromium platform of 10X Genomics.
+To use the code one would need to run [DeepCycle](https://github.com/andreariba/DeepCycle) and obtain an AnnData object which contains layers: `Ms` and `Mu` and obs: `cell_cycle_theta`. The notebook `jupyter/fit_gene.ipynb` demonstrates how to obtain the rates for a given gene. The code has been tested on single-cell RNA-seq and single-nucleus RNA-seq datasets obtained from the Chromium platform of 10X Genomics.
 
 ### Dependencies
 The code has the following dependencies:
-> scipy
-numpy
-pandas
-scikit-learn
-anndata
-gseapy
-matplotlib
-seaborn
+* scipy
+* numpy
+* pandas
+* scikit-learn
+* anndata
+* gseapy
+* matplotlib
+* seaborn
 
 ### Contact
 For questions and concerns contact mauliknariya[at]gmail[dot]com
