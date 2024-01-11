@@ -1,4 +1,4 @@
-## Fourier—Cyclecell cycle dependence of mRNA metabolism using Fourier series approximation
+## FourierCycle—cell cycle dependence of mRNA metabolism using Fourier series approximation
 The cell cycle is a highly regulated process that ensures the accurate replication and transmission of genetic information from one generation of cells to the next. In eukaryotic cells the cell cycle consists of four main phases—G1, S, G2, M. The advent of single-cell sequencing technologies, and recent advances in computational methodologies, such as [RNA velocity](http://velocyto.org/) and [DeepCycle](https://github.com/andreariba/DeepCycle) have made it possible to investigate the cell cycle with extremely high temporal resolution. In this work we showcase a novel computational approach that allows us to obtain the cell cycle dependence of mRNA metabolism for every gene.
 
 ### Biophysical model
